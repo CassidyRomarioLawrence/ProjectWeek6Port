@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Roboto:wght@900&display=swap');
+.text-over-image{
+    font-family: 'Bebas Neue',cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);  
+}
+.text-over-image-1{
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    background-color: #87805E;
+    padding: 7px;
+}
+.position-relative{
+    text-align: center;
+}
+h1{
+    animation-name: fun;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.img-fluid{
+    background-size: cover;
+    opacity: 1;
+}
+.img-fluid:hover{
+    opacity: 0.9;
+}
+.navbar{
+    font-family: 'Bebas Neue',cursive;
+    font-size: 22px;
+    background-color: transparent;
+}
+@keyframes fun {
+0% {
+    color: gold;}
+25% {
+    color: greenyellow;}
+50% {
+    color: lightcoral;}
+75% {
+    color: lightseagreen;}
+100% {
+    color: blueviolet;}
+}
